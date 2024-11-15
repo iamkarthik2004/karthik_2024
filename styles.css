@@ -319,3 +319,74 @@ footer.dark-theme {
     transform: scale(1.2);
 }
 
+
+
+
+.education {
+    background-image: url('blur.jpg'); /* Add your background image */
+    background-size: cover; /* Make the image cover the entire section */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+    color: #000000; /* Change text color if needed to improve readability */
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+/* Contact Section Styling */
+.contact {
+    padding: 40px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact form {
+    display: inline-block;
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Button Styling */
+.btn.contact-btn {
+    display: inline-block;
+    background-color: #ff7a00;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn.contact-btn:hover {
+    background-color: #ff8b33;
+}
