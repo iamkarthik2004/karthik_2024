@@ -398,6 +398,79 @@ footer.dark-theme {
     border-radius: 50%;
 }
 
+
+
+/* General layout */
+main {
+    padding: 20px;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    /* Adjust layout for tablets and mobile */
+    .hero-content h1 {
+        font-size: 24px; /* Make the hero title smaller */
+    }
+
+    .hero-content p {
+        font-size: 14px; /* Smaller text size for the description */
+    }
+
+    .buttons a {
+        font-size: 14px; /* Adjust button text size */
+        padding: 10px 20px;
+    }
+
+    /* Stack achievements vertically for smaller screens */
+    .achievements-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    /* Adjust the font size for the achievements section */
+    .achievement-item {
+        width: 90%; /* Allow items to take up more space */
+        max-width: 300px; /* Limit the maximum width */
+    }
+
+    /* Adjust font sizes in the education section */
+    .education-content {
+        font-size: 14px;
+    }
+
+    /* Adjust button sizes for mobile */
+    .scroll-to-top-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 20px; /* Adjust icon size */
+    }
+}
+
+/* Extra small devices (phones in portrait mode) */
+@media (max-width: 480px) {
+    /* Smaller adjustments for very small screens */
+    .hero-content h1 {
+        font-size: 20px; /* Further reduce the title size */
+    }
+
+    .hero-content p {
+        font-size: 12px; /* Smaller text size for mobile screens */
+    }
+
+    .buttons a {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .scroll-to-top-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 18px; /* Smaller button size */
+    }
+}
+
+
 .hero-img:active {
     box-shadow: 0 0 15px 5px rgba(0, 255, 38, 0.8), 0 0 30px 10px rgba(0, 255, 255, 0.6);
     transform: scale(1.05);
