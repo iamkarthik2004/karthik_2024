@@ -390,3 +390,15 @@ footer.dark-theme {
 .btn.contact-btn:hover {
     background-color: #ff8b33;
 }
+
+/* Add this to your existing styles */
+.hero-img {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+}
+
+.hero-img:active {
+    box-shadow: 0 0 15px 5px rgba(0, 255, 38, 0.8), 0 0 30px 10px rgba(0, 255, 255, 0.6);
+    transform: scale(1.05);
+}
