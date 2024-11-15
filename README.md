@@ -16,6 +16,7 @@ Week 1:
 *Build a single web page with a heading and a short paragraph introducing yourself.*
 
 https://github.com/iamkarthik2004/Portfolio-karthik_kk
+
 https://iamkarthik2004.github.io/Portfolio-karthik_kk
 
 Week 2: 
@@ -23,13 +24,15 @@ Week 2:
 email.*
 
 https://github.com/iamkarthik2004/About-Me
+
 https://iamkarthik2004.github.io/About-M
 
 Week 3: 
 *Style your "About Me" page using Tailwind CSS,  focusing on layout and responsive design.*
 
 https://github.com/iamkarthik2004/About-Me
-https://iamkarthik2004.github.io/About-Me/
+
+https://iamkarthik2004.github.io/About-Me
 
 
 Week 4: 
@@ -37,12 +40,14 @@ Week 4:
 the background color of the page when clicked.*
 
 https://github.com/iamkarthik2004/AboutMe_Bg_Changer
+
 https://iamkarthik2004.github.io/AboutMe_Bg_Changer
 
 Week 5:
 *Create a simple to-do list where users can add and remove tasks.*
 
 https://github.com/iamkarthik2004/TO-DO-LIST
+
 https://iamkarthik2004.github.io/TO-DO-LIST
 
 
