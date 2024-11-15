@@ -1,0 +1,321 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contact-btn {
+    background-color: #fff;
+    color: #222;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: #ff6347;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    display: flex;
+}
+
+.hero-image img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+/* About Section */
+.about {
+    background-color: #f8f8f8;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.about-text {
+    max-width: 50%;
+    text-align: left;
+}
+
+.lower-btn {
+    display: block;
+    margin-top: 2rem; /* Added margin to position the button lower */
+}
+
+/* Button Styles */
+.btn {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.black-btn {
+    background-color: black;
+    color: white;
+}
+
+.black-btn:hover {
+    background-color: #333;
+}
+
+.orange-btn {
+    background-color: #ff6347;
+    color: white;
+}
+
+.orange-btn:hover {
+    background-color: #e5533d;
+}
+
+/* Contact Section */
+.contact {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer-links {
+    margin-top: 1rem;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Education Section Styles */
+.education {
+    background-color: #f8f8f8;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.education h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Gupter', serif; /* Custom font style */
+}
+
+.education-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the content */
+}
+
+.education-item {
+    margin-bottom: 2rem;
+    font-family: 'Gupter', serif; /* Custom font style */
+    animation: colorChange 5s infinite; /* Color-changing animation */
+}
+
+.education-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.education-item p, .education-item span {
+    font-size: 1rem;
+}
+
+/* Animation for color change */
+@keyframes colorChange {
+    0% { color: #ff6347; }
+    25% { color: #e5533d; }
+    50% { color: #ff8c00; }
+    75% { color: #ff4500; }
+    100% { color: #ff6347; }
+}
+
+/*TOGGLE BUTTON*/
+
+/* Light theme (default) */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Dark theme */
+body.dark-theme {
+    background-color: #333;
+    color: #f8f8f8;
+}
+
+header.dark-theme {
+    background-color: #222;
+}
+
+.nav-links a.dark-theme {
+    color: #f8f8f8;
+}
+
+footer.dark-theme {
+    background-color: #222;
+    color: #f8f8f8;
+}
+
+.btn.dark-theme {
+    background-color: #444;
+    color: white;
+}
+
+.hero.dark-theme {
+    background-color: #222;
+}
+
+.hero-content h1.dark-theme {
+    color: #f8f8f8;
+}
+
+.contact.dark-theme {
+    background-color: #222;
+}
+
+/* Theme toggle button */
+.theme-toggle-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+    transform: scale(1.2);
+}
+
