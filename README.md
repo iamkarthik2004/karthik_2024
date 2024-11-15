@@ -10,11 +10,41 @@ Duration: 6 weeks (Starting from September 1)
 Organized By: IEEE SB SBCE and IEEE SB SNGCE
 Focus: Building real-world projects and honing development skills
 Weekly Assignments: The bootcamp provided assignments every week, helping participants progress step-by-step:
-Week 1: [Assignment Link]
-Week 2: [Assignment Link]
-Week 3: [Assignment Link]
-Week 4: [Assignment Link]
-Week 5: [Assignment Link]
+
+Week 1: 
+*Build a single web page with a heading and a short paragraph introducing yourself.*
+
+https://github.com/iamkarthik2004/Portfolio-karthik_kk
+https://iamkarthik2004.github.io/Portfolio-karthik_kk
+
+Week 2: 
+*Create a simple "About Me" page with a table to list your favorite movies and a form to collect a visitor's name and
+email.*
+
+https://github.com/iamkarthik2004/About-Me
+https://iamkarthik2004.github.io/About-M
+
+Week 3: 
+*Style your "About Me" page using Tailwind CSS,  focusing on layout and responsive design.*
+
+https://github.com/iamkarthik2004/About-Me
+https://iamkarthik2004.github.io/About-Me/
+
+
+Week 4: 
+*Add a button to your "About Me" page that changes
+the background color of the page when clicked.*
+
+https://github.com/iamkarthik2004/AboutMe_Bg_Changer
+https://iamkarthik2004.github.io/AboutMe_Bg_Changer
+
+Week 5:
+*Create a simple to-do list where users can add and remove tasks.*
+
+https://github.com/iamkarthik2004/TO-DO-LIST
+https://iamkarthik2004.github.io/TO-DO-LIST
+
+
 Through this cohort, I gained hands-on experience with web development, specifically in HTML, CSS, and JavaScript, while receiving feedback and collaborating with peers. It offered invaluable exposure to project development from scratch, enhancing both my coding skills and teamwork abilities.
 
 # Key Technologies & Features:
