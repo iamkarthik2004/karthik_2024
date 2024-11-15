@@ -6,8 +6,9 @@
 The Portfolio Website was developed as part of the Coding Cohort, a 6-week peer-oriented project bootcamp organized by IEEE SB SBCE and IEEE SB SNGCE. The bootcamp provided an excellent platform for enhancing coding skills and building projects in a collaborative environment.
 
 # Coding Cohort Details:
+
 Duration: 6 weeks (Starting from September 1)
-Organized By: IEEE SB SBCE and IEEE SB SNGCE
+Organized By: *IEEE SB SBCE and IEEE SB SNGCE*
 Focus: Building real-world projects and honing development skills
 Weekly Assignments: The bootcamp provided assignments every week, helping participants progress step-by-step:
 
